@@ -105,7 +105,7 @@ namespace CleverCore.Utilities.Helpers
                 }
             }
             if (booAm) str = "Âm " + str;
-            return str + "đồng chẵn";
+            return Regex.Replace(input: str + "đồng chẵn", pattern: @"\s+", replacement: " ").Trim();
         }
     }
 }

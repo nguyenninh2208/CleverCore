@@ -19,13 +19,13 @@ namespace CleverCore.Utilities.Test.Dtos
         [Fact]
         public void Contructor_CreateObjectSuccess_ValidObjectNoPramDefault()
         {
-            var genericResult = new GenericResult();
+            var genericResult = new GenericResult(success: true, new object());
             Assert.True(genericResult.Success);
         }
         [Fact]
         public void Contructor_CreateObjectNotNull_NoPramDefault()
         {
-            var genericResult = new GenericResult();
+            var genericResult = new GenericResult(success: true, message: "test");
             Assert.Equal(expected: "test", actual: genericResult.Message);
         }
     }

@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleverCore.WebApi", "Clever
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{04C374F8-6E3B-4A64-98EA-99FF6538FEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleverCore.Utilities.Test", "CleverCore.Utilities.Test\CleverCore.Utilities.Test.csproj", "{C2A210F0-E9EF-4020-87D5-49D390BD5590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleverCore.Utilities.Test", "CleverCore.Utilities.Test\CleverCore.Utilities.Test.csproj", "{C2A210F0-E9EF-4020-87D5-49D390BD5590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleverCore.Data.EF.Test", "CleverCore.Data.EF.Test\CleverCore.Data.EF.Test.csproj", "{C2B08B2B-1B22-46ED-86BB-32C7F2E5321C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{C2A210F0-E9EF-4020-87D5-49D390BD5590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A210F0-E9EF-4020-87D5-49D390BD5590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A210F0-E9EF-4020-87D5-49D390BD5590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B08B2B-1B22-46ED-86BB-32C7F2E5321C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B08B2B-1B22-46ED-86BB-32C7F2E5321C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B08B2B-1B22-46ED-86BB-32C7F2E5321C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B08B2B-1B22-46ED-86BB-32C7F2E5321C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{D278D187-3D13-4872-BB09-2F2F9A69E2FD} = {844DB236-20AF-4F85-AC1F-A9A90BC3F6DC}
 		{27171F34-3919-4F09-A7D7-6C6F9CAEFFC0} = {9B9CE55E-D9E6-4C52-B697-C4FBAB581793}
 		{C2A210F0-E9EF-4020-87D5-49D390BD5590} = {04C374F8-6E3B-4A64-98EA-99FF6538FEF8}
+		{C2B08B2B-1B22-46ED-86BB-32C7F2E5321C} = {04C374F8-6E3B-4A64-98EA-99FF6538FEF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDD37A10-3F44-4006-96E9-0F63F1506ACC}
